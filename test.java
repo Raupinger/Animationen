@@ -32,7 +32,7 @@ public class test extends AnimatedActor
         animation = new Animation(frames, 100, true, lenght);
         animate(animation);
     }
-    public void animateNow(){
+    public void zwinkern(){
         Animation animation;
         frames = new GreenfootImage[5];
         frames[0] = new GreenfootImage("shiggy Master.png");
