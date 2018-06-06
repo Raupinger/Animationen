@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AnimatedActor
+comment0.text=\n\ Write\ a\ description\ of\ class\ AnimatedActor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=a
+comment1.target=void\ animate(AnimatedActor.Animation)
+comment2.params=
+comment2.target=void\ stopAnimation()
+comment3.params=img
+comment3.target=void\ setImage(greenfoot.GreenfootImage)
+comment4.params=img
+comment4.target=void\ setImageSuper(greenfoot.GreenfootImage)
+numComments=5
