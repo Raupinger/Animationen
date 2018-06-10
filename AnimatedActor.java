@@ -1,5 +1,4 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 /**
  * Write a description of class AnimatedActor here.
  * 
@@ -15,7 +14,7 @@ abstract class AnimatedActor extends Actor
         private int[] duration;
         private boolean loop;
         private int lenght;
-    public boolean abort = false;
+    protected boolean abort = false;
 
         protected Animation(GreenfootImage[] f, int d, boolean l, int ln){
             frames = f;
@@ -27,6 +26,9 @@ abstract class AnimatedActor extends Actor
             lenght = ln;
             System.out.println("main: " + currentThread());
 
+        }
+        protected Animation(Json input){
+            
         }
 
         protected Animation(GreenfootImage[] f, int[] d, boolean l, int ln){
